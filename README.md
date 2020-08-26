@@ -3,10 +3,15 @@
 This is a simple language file for [Notepad++](https://notepad-plus-plus.org/), which will provide some formatting useful for writers (not coders).
 It will kick in for files with the following extentions:
 
-- prose
-- book
-- chapter
-- scene
+- `.prose`
+- `.book`
+- `.chapter`
+- `.scene`
+
+## Installing
+
+In the Notepad++ navigate through the menu to `Language`, `User Defined Language`, `Open User Defined Language folder ...` and Windows Explorer will open up a folder.
+Place the [npp-userDefinedLang-prose-kcartlidge.xml](./npp-userDefinedLang-prose-kcartlidge.xml) file from here into that folder and restart Notepad++, at which point the language highlighter will be available for all the matching file types.
 
 ## The main stuff it highlights
 
@@ -79,4 +84,4 @@ eum fugiat quo voluptas nulla pariatur?
 END
 ```
 
-![screenshot](screenshot.png)
+![screenshot](./screenshot.png)
