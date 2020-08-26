@@ -1,0 +1,32 @@
+<NotepadPlus>
+    <UserLang name="Prose" ext="prose book chapter scene">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" />
+            <TreatAsSymbol comment="yes" commentLine="yes" />
+            <Prefix words1="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+">SCENE</Keywords>
+            <Keywords name="Folder-">END</Keywords>
+            <Keywords name="Comment"> 1/* 2*/ 0# 0// 0--</Keywords>
+            <Keywords name="Words1">BOOK CHAPTER TITLE AUTHOR ISBN PUBLISHER PUBLISHED SERIES SEQUENCE COVER</Keywords>
+			
+			<!-- Operators is being used for punctuation -->
+            <Keywords name="Operators">- % &amp; ( ) . , : [ ] { | } + &lt; = &gt;</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="COMMENT" styleID="1" fgColor="65AB7A" bgColor="FFFFFF" fontStyle="3" fontSize="12" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="65AB7A" bgColor="FFFFFF" fontStyle="3" fontSize="12" />
+
+            <WordsStyle name="NUMBER" styleID="4" fgColor="222222" bgColor="FFFFFF" fontStyle="1" fontSize="12" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="4B8440" bgColor="FFFFFF" fontStyle="1" fontSize="12" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="444444" bgColor="FFFFFF" fontStyle="1" fontSize="12" />
+
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="444444" bgColor="FFFFFF" fontStyle="0" fontSize="12" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="9C4227" bgColor="F4F4F4" fontStyle="1" fontSize="12" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="4970A3" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="0D4D90" bgColor="FFFFFF" fontStyle="2" fontSize="12" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
