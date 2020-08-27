@@ -29,8 +29,8 @@ For my own tooling, there are several other things you can do. Or ignore them en
   - `--` comments out the remainder of the line
   - `#` comments out the remainder of the line
   - `/*` and `*/` will comment out just the enclosed text
-- *scenes* with the ability to fold them up for easy navigation
-  - `SCENE` designates a new scene, and `END` marks the end of that scene
+- *chapters* and *scenes*, with the ability to fold them up for easy navigation
+  - `CHAPTER` or `SCENE` designates a new one, and `END` marks it's end
     - For clarity only use those markers at the start of a line (not enforced)
     - Remember to end one scene before starting the next
 
@@ -38,12 +38,14 @@ For my own tooling, there are several other things you can do. Or ignore them en
 
 These are also for my own tooling, but feel free if it helps.
 
-- `BOOK`, `CHAPTER`, `TITLE`, `AUTHOR`, `ISBN`, `PUBLISHER`, `PUBLISHED`, `SERIES`, `SEQUENCE`, `COVER`
+- `BOOK`, `CHAPTER`, `TITLE`, `AUTHOR`, `ISBN`, `PUBLISHER`, `PUBLISHED`, `SERIES`, `SEQUENCE`, `COVER`, `COPYRIGHT`, `GENRE`, `SYNOPSIS`
   - These are all highlighted, but have no function beyond that. For my own purposes I expect lines of book metadata where each is one of these tags followed by a value.
+  - The file [sample-text.prose](./sample-text.prose) is a more complete example showing all of these tags.
 
 ## Example content
 
-Below this is a *screenshot* of the outcome.
+Below this is a *screenshot* of the outcome of the following sample content.
+This example does not contain all options; see the file [sample-text.prose](./sample-text.prose) for more.
 
 ```
 BOOK Some example Lorem Ipsum
