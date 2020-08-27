@@ -7,12 +7,12 @@
         </Settings>
         <KeywordLists>
             <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
-            <Keywords name="Folder+">SCENE</Keywords>
+            <Keywords name="Folder+">SCENE CHAPTER</Keywords>
             <Keywords name="Folder-">END</Keywords>
             <Keywords name="Comment"> 1/* 2*/ 0# 0// 0--</Keywords>
-            <Keywords name="Words1">BOOK CHAPTER TITLE AUTHOR ISBN PUBLISHER PUBLISHED SERIES SEQUENCE COVER</Keywords>
+            <Keywords name="Words1">BOOK CHAPTER TITLE AUTHOR ISBN PUBLISHER PUBLISHED SERIES SEQUENCE COVER SYNOPSIS COPYRIGHT GENRE</Keywords>
 			
-			<!-- Operators is being used for punctuation -->
+            <!-- Operators is being used for punctuation -->
             <Keywords name="Operators">- % &amp; ( ) . , : [ ] { | } + &lt; = &gt;</Keywords>
         </KeywordLists>
         <Styles>
