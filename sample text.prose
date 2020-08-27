@@ -1,10 +1,19 @@
-BOOK Some example Lorem Ipsum
-AUTHOR K Cartlidge
+BOOK      Some Example Lorem Ipsum
+TITLE     An Alternative Way to Specify the Book Title
+AUTHOR    K Cartlidge
 PUBLISHER K Cartlidge
+PUBLISHED 2020
+COVER     cover.png
+ISBN      978-3-16-148410-0
+COPYRIGHT K Cartlidge, 2020
+GENRE     Science Fiction
+SERIES    My Book Beries
+SEQUENCE  2
 
-# This is a sample file only.
+# This is a sample file.
 
 CHAPTER One - Sample text
+SYNOPSIS In this chapter some stuff happens, followed by some more stuff.
 
 SCENE 1st para of text
 
