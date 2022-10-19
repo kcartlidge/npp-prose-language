@@ -3,24 +3,26 @@
         <Settings>
             <Global caseIgnored="no" allowFoldOfComments="no" />
             <TreatAsSymbol comment="yes" commentLine="yes" />
-            <Prefix words1="no" />
+            <Prefix words1="no" words2="no" />
         </Settings>
         <KeywordLists>
             <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
             <Keywords name="Folder+">SCENE CHAPTER</Keywords>
             <Keywords name="Folder-">END</Keywords>
             <Keywords name="Comment"> 1/* 2*/ 0# 0// 0--</Keywords>
-            <Keywords name="Words1">BOOK CHAPTER TITLE AUTHOR ISBN PUBLISHER PUBLISHED SERIES SEQUENCE COVER SYNOPSIS COPYRIGHT GENRE</Keywords>
+            <Keywords name="Words1">BOOK CHAPTER TITLE AUTHOR ISBN PUBLISHER PUBLISHED SERIES SEQUENCE COVER COPYRIGHT GENRE TARGET DEADLINE TAGS</Keywords>
+            <Keywords name="Words2">SYNOPSIS</Keywords>
 			
             <!-- Operators is being used for punctuation -->
             <Keywords name="Operators">- % &amp; ( ) . , : [ ] { | } + &lt; = &gt;</Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="COMMENT" styleID="1" fgColor="65AB7A" bgColor="FFFFFF" fontStyle="3" fontSize="12" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="65AB7A" bgColor="FFFFFF" fontStyle="3" fontSize="12" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="57AF5A" bgColor="FFFFFF" fontStyle="3" fontSize="12" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="57AF5A" bgColor="FFFFFF" fontStyle="3" fontSize="12" />
 
             <WordsStyle name="NUMBER" styleID="4" fgColor="222222" bgColor="FFFFFF" fontStyle="1" fontSize="12" />
-            <WordsStyle name="KEYWORD1" styleID="5" fgColor="4B8440" bgColor="FFFFFF" fontStyle="1" fontSize="12" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="B200FF" bgColor="FFFFFF" fontStyle="1" fontSize="12" />
+            <WordsStyle name="KEYWORD2" styleID="5" fgColor="FF35A4" bgColor="FFFFFF" fontStyle="1" fontSize="12" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="444444" bgColor="FFFFFF" fontStyle="1" fontSize="12" />
 
             <WordsStyle name="DEFAULT" styleID="11" fgColor="444444" bgColor="FFFFFF" fontStyle="0" fontSize="12" />
